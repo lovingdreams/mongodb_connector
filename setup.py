@@ -13,16 +13,16 @@ HYPEN_E_DOT='-e .'
             requirements.remove(HYPEN_E_DOT)
     return requirements'''
 
-   
+
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
-   
+
 
 __version__ = "0.0.6"
 REPO_NAME = "mongodb_connector"
 PKG_NAME= "MongoConnect"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+AUTHOR_USER_NAME = "loving dreams"
+AUTHOR_EMAIL = "johnymails55@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -38,6 +38,3 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    
-    
-)
