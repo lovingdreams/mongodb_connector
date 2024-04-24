@@ -49,4 +49,4 @@ In summary, setup.cfg is used by setuptools to configure the packaging and insta
 
 # mongodb_connector
 mongodb_connector
- new-origin/main
+new-origin/main
